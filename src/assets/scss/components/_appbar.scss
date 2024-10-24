@@ -1,0 +1,6 @@
+@use "../abstract/variables";
+
+.app-drawer {
+  background-color: variables.$purple !important;
+  color: variables.$white !important;
+}

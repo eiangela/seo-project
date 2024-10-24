@@ -1,0 +1,9 @@
+//all
+@use './vendor/vuetify.scss';
+
+//variables 
+@use './abstract/variables';
+
+//components
+@use './components/seo-intro';
+@use './components/appbar';
