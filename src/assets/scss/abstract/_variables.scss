@@ -1,27 +1,30 @@
 $purple: #6733e2;
+$purple-2: #b2a4ff;
 $white: #ffffff;
 $yellow: #f8dd28;
 
+$font-family-montserrat: "Montserrat", sans-serif;
+$font-family-open-sans: "Open Sans", sans-serif;
 
 // * MEDIA QUERIES BREAKINGPOINTS VUETIFY
 /* Normal desktop :1200px. */
-$extra-extra-large-device: '(min-width: 2561px)';
+$extra-extra-large-device: "(min-width: 2561px)";
 
-$extra_large_device: '(min-width: 1921px) and (max-width: 2560px)';
+$extra_large_device: "(min-width: 1921px) and (max-width: 2560px)";
 
-$large_device: '(min-width: 1281px) and (max-width: 1920px)';
+$large_device: "(min-width: 1281px) and (max-width: 1920px)";
 
 /* Normal desktop :992px. */
-$mid_device: '(min-width: 960px) and (max-width: 1280px)';
+$mid_device: "(min-width: 960px) and (max-width: 1280px)";
 
 /* Tablet desktop :768px. */
-$tablet_device: '(min-width: 601px) and (max-width: 960px)';
+$tablet_device: "(min-width: 601px) and (max-width: 960px)";
 
 /* non mobile device > 768px */
-$non_mobile_device: '(min-width: 601px)';
+$non_mobile_device: "(min-width: 601px)";
 
 /* small mobile :320px. */
-$mobile_device: '(max-width: 600px)';
+$mobile_device: "(max-width: 600px)";
 
 /* Large Mobile :480px. */
-$large_mobile: 'only screen and (min-width: 480px) and (max-width: 600px)';
+$large_mobile: "only screen and (min-width: 480px) and (max-width: 600px)";

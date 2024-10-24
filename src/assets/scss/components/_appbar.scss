@@ -1,6 +1,10 @@
 @use "../abstract/variables";
 
 .app-drawer {
-  background-color: variables.$purple !important;
+  background-color: variables.$purple-2 !important;
   color: variables.$white !important;
+}
+
+.v-list-item-title {
+  font-weight: bold !important;
 }

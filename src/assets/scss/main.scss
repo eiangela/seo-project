@@ -1,9 +1,10 @@
 //all
-@use './vendor/vuetify.scss';
+@use "./vendor/vuetify.scss";
+@use "fonts";
 
-//variables 
-@use './abstract/variables';
+//variables
+@use "./abstract/variables";
 
 //components
-@use './components/seo-intro';
-@use './components/appbar';
+@use "./components/seo-intro";
+@use "./components/appbar";

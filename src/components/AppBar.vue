@@ -16,13 +16,8 @@
     </v-row>
   </v-app-bar>
 
-  <v-navigation-drawer
-    class="app-drawer"
-    v-model="drawer"
-    :location="$vuetify.display.mobile ? 'bottom' : undefined"
-    temporary
-  >
-    <v-list :items="items"></v-list>
+  <v-navigation-drawer class="app-drawer" v-model="drawer" temporary>
+    <v-list :items="items"> </v-list>
   </v-navigation-drawer>
 </template>
 

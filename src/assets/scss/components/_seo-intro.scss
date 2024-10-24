@@ -33,6 +33,7 @@
   font-size: 3rem;
   margin: 0;
   color: variables.$purple;
+  font-family: variables.$font-family-montserrat !important;
 }
 
 .seo-paragraph {
@@ -40,6 +41,7 @@
   font-size: 1.25rem;
   font-weight: 600;
   color: variables.$purple;
+  font-family: variables.$font-family-montserrat !important;
 }
 
 .seo-btn {
@@ -59,7 +61,36 @@
     width: 340px;
   }
   .background-image {
-    height: 1044px;
+    height: 1114px;
     scale: (1.5);
+    margin-left: 64px;
+  }
+
+  .seo-paragraph {
+    line-height: 2.5;
+  }
+
+  .seo-title {
+    font-size: 2.25rem;
+  }
+
+  .seo-paragraph {
+    background-image: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 31px 0 0;
+  }
+}
+
+@media (variables.$tablet_device) {
+  .background-image {
+    height: 999px;
+    // scale: (1.5);
+    margin-left: 64px;
+  }
+
+  .seo-image-graph {
+    height: 316px;
+    width: 432px;
   }
 }
