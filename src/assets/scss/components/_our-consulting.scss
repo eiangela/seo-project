@@ -1,0 +1,43 @@
+@use "../abstract/variables";
+
+.our-consulting-image {
+  width: 100%;
+}
+
+.our-consulting-card {
+  background-color: variables.$purple !important;
+}
+
+.our-consulting-card-title {
+  color: variables.$white;
+  font-family: variables.$font-family-open-sans;
+}
+
+.our-consulting-subtitle {
+  font-family: variables.$font-family-montserrat;
+  letter-spacing: 2px;
+}
+
+.our-consulting-title {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-family: variables.$font-family-montserrat;
+}
+
+.our-consulting-paragraph {
+  line-height: 1.8;
+  letter-spacing: normal;
+  margin: 35px 0 0;
+  font-family: variables.$font-family-open-sans;
+}
+
+.our-consulting-btn {
+  background-color: variables.$yellow !important;
+  color: variables.$purple !important;
+  letter-spacing: 0.4em !important;
+}
+
+.our-consulting-btn:hover {
+    background-color: variables.$purple !important;
+    color: variables.$white !important;
+  }
