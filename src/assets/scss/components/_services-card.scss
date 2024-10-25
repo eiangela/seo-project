@@ -1,0 +1,49 @@
+@use "../abstract/variables";
+
+.services-card {
+  background-color: variables.$purple !important;
+  margin-top: 37px;
+  padding-bottom: 60px;
+}
+
+.services-section-title {
+  font-size: 3.4375rem;
+  line-height: 1.1;
+  color: variables.$yellow;
+  font-family: variables.$font-family-montserrat;
+  margin: 60px auto 0;
+}
+
+.services-section-text {
+  margin: 9px auto 60px 0;
+  font-family: variables.$font-family-open-sans;
+  color: variables.$white;
+  line-height: 2;
+  font-size: 1.25rem;
+}
+
+.services-card-avatar {
+  background-color: variables.$yellow !important;
+}
+
+.services-card-icon {
+  color: variables.$purple !important;
+}
+.services-card-title {
+  color: variables.$purple !important;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  margin: 35px auto 0;
+}
+
+.services-card-text {
+  font-size: 1.125rem !important;
+  margin: 20px 0 0;
+  color: variables.$grey;
+  font-family: variables.$font-family-open-sans;
+}
+
+.services-card-btn {
+  background-color: variables.$yellow !important;
+  color: variables.$purple !important;
+}

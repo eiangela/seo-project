@@ -35,9 +35,16 @@
   background-color: variables.$yellow !important;
   color: variables.$purple !important;
   letter-spacing: 0.4em !important;
+  margin: 40px auto 0 0;
 }
 
 .our-consulting-btn:hover {
-    background-color: variables.$purple !important;
-    color: variables.$white !important;
+  background-color: variables.$purple !important;
+  color: variables.$white !important;
+}
+
+@media (variables.$mobile_device) {
+  .our-consulting-title {
+    font-size: 1.5rem;
   }
+}

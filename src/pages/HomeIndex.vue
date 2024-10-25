@@ -1,6 +1,7 @@
 <script setup>
 import SeoIntro from "../components/SeoIntro.vue";
 import OurConsulting from "../components/OurConsulting.vue";
+import ServicesCard from "../components/ServicesCard.vue";
 </script>
 
 <template>
@@ -12,7 +13,11 @@ import OurConsulting from "../components/OurConsulting.vue";
     </div>
   </section>
 
-  <section>
+  <section class="our-consulting">
     <OurConsulting />
+  </section>
+
+  <section class="services-card">
+    <ServicesCard />
   </section>
 </template>

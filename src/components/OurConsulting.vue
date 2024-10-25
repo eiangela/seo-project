@@ -29,14 +29,20 @@
           was working with a trailblazing team at AT&T, literally one of the
           biggest companies in the world.
         </p>
-        <p class="our-consulting-paragraph mb-5">
+        <p class="our-consulting-paragraph">
           Sem fringilla ut morbi tincidunt augue interdum velit. Nunc sed
           blandit libero volutpat sed cras. Risus quis varius quam quisque id.
           Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Et
           tortor consequat id porta nibh. Tincidunt id aliquet risus feugiat in
           ante metus dictum at. Feugiat pretium nibh ipsum consequat.
         </p>
-        <v-btn class="our-consulting-btn font-weight-bold" width="200" height="50">read more</v-btn>
+
+        <v-btn
+          class="our-consulting-btn font-weight-bold"
+          width="200"
+          height="50"
+          >read more</v-btn
+        >
       </v-col>
     </v-row>
   </v-container>
