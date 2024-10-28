@@ -7,25 +7,22 @@ $grey: #808080;
 $font-family-montserrat: "Montserrat", sans-serif;
 $font-family-open-sans: "Open Sans", sans-serif;
 
-// * MEDIA QUERIES BREAKINGPOINTS VUETIFY
-/* Normal desktop :1200px. */
-$extra-extra-large-device: "(min-width: 2561px)";
+// Media Queries Breakpoints
+$xs: 320px;
+$sm: 480px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1500px;
 
-$extra_large_device: "(min-width: 1921px) and (max-width: 2560px)";
+// Media Queries Personalizadas
+$extra-extra-large-device: "(min-width: 2561px)"; // telas grandes >2561px
+$large_device: "(min-width: #{$xl}) and (max-width: #{$xxl})"; // desktop 1200-1500px
 
-$large_device: "(min-width: 1281px) and (max-width: 1920px)";
+$mid_device: "(min-width: #{$lg}) and (max-width: #{$xl})"; // desktop normal 992-1200px
+$tablet_device: "(min-width: #{$md}) and (max-width: #{$lg})"; // tablet 768-992px
 
-/* Normal desktop :992px. */
-$mid_device: "(min-width: 960px) and (max-width: 1280px)";
+$non_mobile_device: "(min-width: #{$md})"; // dispositivos maiores que 768px
+$mobile_device: "(max-width: #{$md})"; // dispositivos móveis até 768px
 
-/* Tablet desktop :768px. */
-$tablet_device: "(min-width: 601px) and (max-width: 960px)";
-
-/* non mobile device > 768px */
-$non_mobile_device: "(min-width: 601px)";
-
-/* small mobile :320px. */
-$mobile_device: "(max-width: 600px)";
-
-/* Large Mobile :480px. */
-$large_mobile: "only screen and (min-width: 480px) and (max-width: 600px)";
+$large_mobile: "only screen and (min-width: #{$sm}) and (max-width: #{$md})"; // celulares maiores, 480-768px

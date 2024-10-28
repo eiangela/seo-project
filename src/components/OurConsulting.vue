@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="12" sm="6" md="6">
+      <v-col cols="12" sm="12" md="6">
         <v-card max-width="500" class="pa-5 our-consulting-card rounded-xl">
           <img
             src="@/assets/images/portrait-happy-bearded-young-man-glasses-standing-outdoors_171337-14763.jpg"
@@ -14,7 +14,7 @@
         </v-card>
       </v-col>
 
-      <v-col cols="12" sm="6" md="6">
+      <v-col cols="12" sm="12" md="6">
         <h3
           class="our-consulting-subtitle font-weight-regular text-uppercase mb-5"
         >
