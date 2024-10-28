@@ -2,6 +2,8 @@
 import SeoIntro from "../components/SeoIntro.vue";
 import OurConsulting from "../components/OurConsulting.vue";
 import ServicesCard from "../components/ServicesCard.vue";
+import BrandPower from "../components/BrandPower.vue";
+import OurTeam from "../components/OurTeam.vue";
 </script>
 
 <template>
@@ -19,5 +21,13 @@ import ServicesCard from "../components/ServicesCard.vue";
 
   <section class="services-card">
     <ServicesCard />
+  </section>
+
+  <section class="brand-power">
+    <BrandPower />
+  </section>
+
+  <section class="our-team">
+    <OurTeam />
   </section>
 </template>
