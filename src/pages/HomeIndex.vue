@@ -5,6 +5,7 @@ import ServicesCard from "../components/ServicesCard.vue";
 import BrandPower from "../components/BrandPower.vue";
 import OurTeam from "../components/OurTeam.vue";
 import FrequentlyAskedQuestions from "../components/FrequentlyAskedQuestions.vue";
+import LeadershipTeam from "../components/LeadershipTeam.vue";
 </script>
 
 <template>
@@ -34,5 +35,9 @@ import FrequentlyAskedQuestions from "../components/FrequentlyAskedQuestions.vue
 
   <section class="frequently-asked-questions">
     <FrequentlyAskedQuestions />
+  </section>
+
+  <section class="leadership-team">
+    <LeadershipTeam />
   </section>
 </template>
