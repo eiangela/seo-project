@@ -14,7 +14,35 @@
 
 .our-team-paragraph {
   font-size: 1.5rem;
-  width: 664px;
   font-family: variables.$font-family-open-sans;
   color: variables.$white;
+}
+
+.our-team-card-subtitle {
+  font-size: 1.025rem !important;
+  font-family: variables.$font-family-open-sans !important;
+  color: variables.$purple;
+
+  opacity: 1 !important;
+}
+
+.our-team-card-text {
+  font-size: 1.025rem !important;
+  line-height: 2 !important;
+  color: variables.$black-1 !important;
+  font-family: variables.$font-family-open-sans !important;
+}
+
+.our-team-icon {
+  color: variables.$purple;
+}
+
+@media (variables.$mobile_device) {
+  .our-team-title {
+    font-size: 2.25rem;
+  }
+
+  .our-team-paragraph {
+    line-height: 2 !important;
+  }
 }

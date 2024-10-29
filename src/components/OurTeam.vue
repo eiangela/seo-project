@@ -2,14 +2,14 @@
   <v-container>
     <div class="d-flex justify-center align-center flex-column">
       <h4 class="text-center our-team-title mb-5">Our Team</h4>
-      <p class="our-team-paragraph font-italic text-center mb-5">
+      <p class="our-team-paragraph font-italic text-center mb-8">
         Glavrida for habitant morbi tristique senectus et netus et malesuada
         fames
       </p>
     </div>
     <v-row>
-      <v-col cols="12" sm="12" md="3" v-for="team in ourTeam" :key="team">
-        <v-card class="pa-5 text-center">
+      <v-col cols="12" sm="6" md="6" lg="3" v-for="team in ourTeam" :key="team">
+        <v-card class="pa-3 text-center">
           <v-img
             :src="team.image"
             aspect-ratio="1"
@@ -18,10 +18,16 @@
             max-height="250px"
             cover
           ></v-img>
-          <v-card-title class=""> {{ team.title }} </v-card-title>
-          <v-card-subtitle>{{ team.subtitle }}</v-card-subtitle>
-          <v-card-text>{{ team.text }}</v-card-text>
-          <v-card-actions>
+          <v-card-title class="our-team-card-title font-weight-bold">
+            {{ team.title }}
+          </v-card-title>
+          <v-card-subtitle class="our-team-card-subtitle font-weight-black">{{
+            team.subtitle
+          }}</v-card-subtitle>
+          <v-card-text class="our-team-card-text font-italic">{{
+            team.text
+          }}</v-card-text>
+          <v-card-actions class="d-flex justify-center">
             <v-btn
               v-for="icon in team.icons"
               :key="icon.name"
@@ -31,8 +37,8 @@
               icon
               text
             >
+              <v-icon class="our-team-icon">{{ icon.name }}</v-icon>
             </v-btn>
-            <v-icon>{{ icon.name }}</v-icon>
           </v-card-actions>
         </v-card>
       </v-col>
