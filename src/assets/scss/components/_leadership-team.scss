@@ -1,0 +1,34 @@
+@use "../abstract/variables";
+
+.leadership-team {
+  background-color: variables.$purple;
+  position: relative;
+}
+
+.background-svg {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  //   margin-top: 150px;
+}
+
+.leadership-team-text {
+  font-family: variables.$font-family-open-sans;
+  font-size: 1.063rem !important;
+  line-height: 2 !important;
+}
+
+.leadership-team-card-title {
+  font-family: variables.$font-family-montserrat;
+  font-size: 1rem !important;
+}
+
+.move-down {
+  margin-top: 142px !important;
+}
+
+@media (variables.$mobile_device) {
+  .move-down {
+    margin-top: 0px !important;
+  }
+}
