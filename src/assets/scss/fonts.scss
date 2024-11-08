@@ -4,6 +4,13 @@ $font-open-sans-path: "@/assets/fonts/font-open-sans/";
 //montserrat
 @font-face {
   font-family: "Montserrat";
+  src: url(#{$font-montserrat-path}Montserrat-Thin.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
   src: url(#{$font-montserrat-path}Montserrat-Regular.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
@@ -11,8 +18,8 @@ $font-open-sans-path: "@/assets/fonts/font-open-sans/";
 
 @font-face {
   font-family: "Montserrat";
-  src: url(#{$font-montserrat-path}Montserrat-Thin.ttf) format("truetype");
-  font-weight: 100;
+  src: url(#{$font-montserrat-path}Montserrat-Bold.ttf) format("truetype");
+  font-weight: 700;
   font-style: normal;
 }
 

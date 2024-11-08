@@ -1,0 +1,36 @@
+@use "../abstract/variables";
+
+.sticky-footer {
+  background-color: variables.$yellow;
+  padding: 3%;
+}
+
+.stick-footer-title {
+  font-size: 2.25rem;
+  color: variables.$purple;
+  font-family: variables.$font-family-montserrat;
+}
+
+.stick-footer-contact-info {
+  font-size: 1.25rem;
+  color: variables.$purple;
+  font-family: variables.$font-family-montserrat;
+}
+
+.stick-footer-subtitle {
+  line-height: 1.8;
+  font-size: 1.125rem;
+  font-family: variables.$font-family-open-sans;
+}
+
+.stick-footer-text {
+  font-family: variables.$font-family-open-sans;
+  line-height: 2;
+  font-size: 1.125rem;
+  color: variables.$black-1;
+}
+
+.stick-footer-btn {
+  background-color: variables.$purple !important;
+  color: variables.$white !important;
+}

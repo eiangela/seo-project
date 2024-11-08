@@ -2,19 +2,27 @@
   <v-container>
     <v-row>
       <v-col cols="12" sm="12" md="6">
-        <v-card max-width="500" class="pa-5 our-consulting-card rounded-xl">
+        <v-card
+          max-width="500"
+          class="pa-5 our-consulting-card rounded-xl animate__animated animate__bounceInLeft"
+        >
           <img
             src="@/assets/images/portrait-happy-bearded-young-man-glasses-standing-outdoors_171337-14763.jpg"
             alt="Rapaz sorrindo"
             class="our-consulting-image"
           />
-          <v-card-title class="our-consulting-card-title"
-            >I felt like I was a good designer</v-card-title
-          >
+          <v-card-title class="our-consulting-card-title">
+            I felt like I was a good designer
+          </v-card-title>
         </v-card>
       </v-col>
 
-      <v-col cols="12" sm="12" md="6">
+      <v-col
+        cols="12"
+        sm="12"
+        md="6"
+        class="animate__animated animate__bounceInRight"
+      >
         <h3
           class="our-consulting-subtitle font-weight-regular text-uppercase mb-5"
         >
@@ -41,8 +49,9 @@
           class="our-consulting-btn font-weight-bold"
           width="200"
           height="50"
-          >read more</v-btn
         >
+          read more
+        </v-btn>
       </v-col>
     </v-row>
   </v-container>

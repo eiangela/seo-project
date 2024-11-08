@@ -1,6 +1,7 @@
 <script setup>
 import AppBar from "./components/AppBar.vue";
 import HomeIndex from "./pages/HomeIndex.vue";
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
@@ -12,5 +13,9 @@ import HomeIndex from "./pages/HomeIndex.vue";
     <v-main>
       <HomeIndex />
     </v-main>
+
+    <footer class="sticky-footer">
+      <Footer />
+    </footer>
   </v-app>
 </template>
