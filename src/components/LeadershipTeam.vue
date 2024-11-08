@@ -49,8 +49,6 @@ import imageNial from "@/assets/images/Untitled-1.jpg";
 import imageMerry from "@/assets/images/ggg.jpg";
 import imageFrank from "@/assets/images/sdasd.jpg";
 
-
-
 const leadershipInfo = [
   {
     text: "Sample quote. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc",
