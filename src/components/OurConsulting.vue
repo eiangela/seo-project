@@ -21,7 +21,7 @@
         cols="12"
         sm="12"
         md="6"
-        class="animate__animated animate__bounceInRight"
+        class="animate__animated animate__bounceInRight pa-10"
       >
         <h3
           class="our-consulting-subtitle font-weight-regular text-uppercase mb-5"
