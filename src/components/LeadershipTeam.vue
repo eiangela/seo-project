@@ -3,7 +3,7 @@
     <div class="svg-background d-flex justify-center align-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 50 1440 200"
+        :viewBox="windowWidth <= 600 ? '0 0 160 160' : '0 50 1440 200'"
         class="background-svg"
       >
         <path
@@ -45,6 +45,7 @@
 </template>
 
 <script setup>
+import { ref, onMounted, onUnmounted } from "vue";
 import imageNial from "@/assets/images/Untitled-1.jpg";
 import imageMerry from "@/assets/images/ggg.jpg";
 import imageFrank from "@/assets/images/sdasd.jpg";
@@ -69,4 +70,19 @@ const leadershipInfo = [
     leaderAvatar: imageFrank,
   },
 ];
+
+const windowWidth = ref(window.innerWidth);
+
+// Função para atualizar a largura da janela quando houver resize
+function handleResize() {
+  windowWidth.value = window.innerWidth;
+}
+
+onMounted(() => {
+  window.addEventListener("resize", handleResize);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("resize", handleResize);
+});
 </script>
